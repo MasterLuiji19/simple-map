@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #E5E5E5;
+  border-radius: 6px;
+  margin: 50px;
+  max-height: calc(100vh - 50px);
+}
+
+.left-side {
+  width: 360px;
+  padding: 20px;
+}
+
+.selected-region {
+  position: relative;
+  width: 320px;
+}
+
+.selected-region__current-city {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 320px;
+  height: 48px;
+  margin-bottom: 24px;
+  cursor: pointer;
+  background: #F2F2F2;
+  border-radius: 4px;
+}
+
+.selected-region__current-city::after {
+  content: '';
+  background: url('../img/arrow.svg') no-repeat;
+  width: 15px;
+  height: 8px;
+  position: absolute;
+  right: 12px;
+}
+
+.selected-region__city-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.selected-region__city-region {
+  margin: 0;
+  font-size: 12px;
+  color: #808080;
+}
+
+.selected-region__city {
+  padding: 6px 14px;
+}
+
+.selected-region__list > .selected-region__city {
+  background-color: #ffffff;
+}
+
+.store-list {
+  height: calc(100vh - 290px);
+  min-height: 50vh;
+  list-style: none;
+  padding-left: 0;
+  overflow-y: scroll;
+}
+
+/*.store-list__item {*/
+/*  margin: 16px -20px 0;*/
+/*  padding: 0 34px 16px;*/
+/*  border-bottom: 1px solid #E6E6E6;*/
+
+/*}*/
+
+.store-place {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+
+.store-address {
+  font-size: 14px;
+  margin: 7px 0;
+}
+
+.store-pickup {
+  display: inline-block;
+  font-size: 14px;
+  color: #6BB324;
+  margin-bottom: 7px;
+}
+
+.store-tel {
+  margin-bottom: 7px;
+}
+
+.store-shedule {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.store-shedule img {
+  margin: 2px 4px 0 0;
+}
+
+.main-map {
+  padding: 10px;
+  flex: 1 1 100%;
+}
+
+.selected-region__list {
+  position: absolute;
+  display: none;
+  width: 100%;
+  max-height: 240px;
+  overflow-y: scroll;
+  opacity: 0;
+  z-index: 5;
+  transition: 0.3s;
+}
+
+.selected-region__list.active {
+  display: block;
+  opacity: 1;
+}
+
+.selected-region__list > .selected-region__city:hover {
+  background: #F2F2F2;
+}
+
+.store {
+  margin-bottom: 10px;
+  padding: 5px 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.store::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: grey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.store-shedule-time {
+  color: gray;
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+
+/*map*/
+.main-map {
+  border-radius: 0 6px 6px 0;
+  flex: 1 1 100%;
+}

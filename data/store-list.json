@@ -1,0 +1,243 @@
+[
+  {
+    "city_id": "1",
+    "city_name": "Kiev",
+    "city_region": "Kiev Region",
+    "city_stores": [
+      {
+        "id": "1",
+        "address_name": "TRC Kiev RivaMull",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": [
+          {
+            "work_time": "Mn-Wd: 10:00-18:00"
+          },
+          {
+            "work_time": "Saturday-Friday: 10:00-16:00"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "address_name": "TRC BigDuck",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": false,
+        "work_time": []
+      },
+      {
+        "id": "4",
+        "address_name": "TRC Kiev Small Cherry",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": false,
+        "work_time": []
+      },
+      {
+        "id": "5",
+        "address_name": "TRC Smile",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  },
+  {
+    "city_id": "2",
+    "city_name": "Lviv",
+    "city_region": "Lviv Region",
+    "city_stores": [
+      {
+        "id": "6",
+        "address_name": "TRC Lviv Gray Rock",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "7",
+        "address_name": "TRC Blue Sky",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "8",
+        "address_name": "TRC Lviv Clean River",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "9",
+        "address_name": "TRC Two Mount",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  },
+  {
+    "city_id": "3",
+    "city_name": "Odessa",
+    "city_region": "Odessa Region",
+    "city_stores": [
+      {
+        "id": "10",
+        "address_name": "TRC Odessa Big Sea",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "11",
+        "address_name": "TRC OceanB",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "12",
+        "address_name": "TRC Odessa BuckBuck",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "13",
+        "address_name": "TRC PonyShop",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  },
+  {
+    "city_id": "4",
+    "city_name": "Herson",
+    "city_region": "Herson Region",
+    "city_stores": [
+      {
+        "id": "14",
+        "address_name": "TRC Herson HotSea",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "15",
+        "address_name": "TRC FreeSpace",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "16",
+        "address_name": "TRC Herson TeslaMask",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "17",
+        "address_name": "TRC Batman",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  },
+  {
+    "city_id": "5",
+    "city_name": "Cherkassu",
+    "city_region": "Cherkassu Region",
+    "city_stores": [
+      {
+        "id": "18",
+        "address_name": "TRC Cherkassu SpiderMan",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "19",
+        "address_name": "TRC Cherkassu SuperMan",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "20",
+        "address_name": "TRC Small Hulkman",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "21",
+        "address_name": "TRC Tor",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  },
+  {
+    "city_id": "6",
+    "city_name": "Symu",
+    "city_region": "Symu Region",
+    "city_stores": [
+      {
+        "id": "22",
+        "address_name": "TRC Symu RivaMull",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "23",
+        "address_name": "TRC BigDuck",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "24",
+        "address_name": "TRC Symu Small Cherry",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      },
+      {
+        "id": "25",
+        "address_name": "TRC Smile",
+        "address_details": "Rusanovska nabereshna 12",
+        "phone": "+1234567890",
+        "is_self_taking": true,
+        "work_time": []
+      }
+    ]
+  }
+]
